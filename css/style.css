@@ -1,0 +1,131 @@
+/***********css par défaut mobile ********************/
+
+/* GLOBAL */
+
+*{
+    box-sizing: border-box;
+    outline: none;
+}
+
+html{
+    font-size: 62.5%;
+    height: 100%;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem; 
+    width: 100%;
+    margin: 0;
+    /* background-color: #33cc66; */
+    background-color: rgb(204, 198, 198);
+}
+
+img, video, table{
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+    margin: 0.2rem;
+    color: #fff;
+}
+
+table{
+    width: 100%;
+}
+
+h2{
+    color: #33cc66;
+}
+
+
+
+
+/***********css pour desktop ********************/
+
+/* ------------------- M E N U ---------------------- */
+/* header{
+    background-color: #33cc66;
+    height: 300px;
+} */
+
+nav{
+    position: sticky;
+    top: 0;
+    background-color: rgba(102, 102, 102, 1);
+}
+
+.menu .menu_ul{
+    border-bottom: 2px solid rgba(12, 12, 12, 0.5);
+    padding: 20px;
+    margin: 0;
+}
+
+.menu_li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 50px;
+    position: relative;
+}
+
+nav li:hover .sous_menu_ul{
+    display: block;
+    position: absolute;
+    z-index:  1;
+    background-color: #33cc66;
+    top: 20px; 
+    left: 0px;
+}
+
+.sous_menu_ul{
+    display: none;
+}
+
+.sous_menu_ul .sous_menu_li{
+    display: block;
+}
+
+
+
+/* ------------------- M E N U ---------------------- */
+
+img{
+    width: 355px;
+    height: 255px;
+}
+
+article{
+    background-color: white;
+}
+
+
+.div_head{
+    padding: 70px;
+    height: 400px;
+    background: linear-gradient(#33cc66 50%, rgb(204, 198, 198) 50%);
+}
+
+.div_head .img_homer, .div_head .presentation{
+    display: inline-block;
+    width: 49%;
+    height: 259px;
+}
+
+.div_head .presentation{
+    vertical-align: bottom;
+}
+
+.section_card{
+    /* margin-top: 50px; */
+}
+
+
+/* ------------------- corps ---------------------- */
+
+.main_section{
+    padding: 70px;
+}
+.main_section_card{
+    
+}
