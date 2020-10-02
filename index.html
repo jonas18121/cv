@@ -10,74 +10,143 @@
     <header>
         <nav class="menu">
             <ul class="menu_ul">
-                <li class="menu_li"><a href="#" >Accueil</a></li>
-                <li class="menu_li"><a href="#">Expériences</a> </li>
-                <li class="menu_li"><a href="#">Compétences</a></li>
-                <li class="menu_li"><a href="#">Formations</a></li>
+                <li class="menu_li"><a href="#presentation" >Accueil</a></li>
+                <li class="menu_li"><a href="#experience">Expériences</a> </li>
+                <li class="menu_li"><a href="#competence">Compétences</a></li>
+                <li class="menu_li"><a href="#formation">Formations</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <div class="div_head">
             <section class="section_card">
-                <article class="img_homer">
-                    <img src="image/homer.jpg" alt="" srcset="">
-                </article><!--
-                --><article class="presentation">
-                    <p>Jonathan Lupot</p>
-                    <p>29 rue</p>
-                    <p>jonasxtrm971@gmail.com</p>
-                    <p>0644012971</p>
+                <article>
+                    <div class="img_homer">
+                        <img src="image/homer.jpg" alt="" srcset="">
+                    </div><!--
+                    --><div class="presentation" id="presentation">
+                        <p>Je suis <span>Jonathan Lupot</span></p>
+                        <p>Adresse : 29 rue des Madières (Les Grèves) – 22360 Langueux</p>
+                        <p>Email : jonasxtrm971@gmail.com</p>
+                        <p>Tel : 0644012971</p>
+                        <div class="titre_taf">
+                            <p>Développeur Php / Symfony</p>
+                        </div>
+                    </div>
                 </article>
             </section>
         </div>
 
         <section class="main_section">
             <section class="main_section_card">
-                <h2>Expériences</h2>
+                <h2 id="experience">Expériences</h2>
+
                 <article>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                        Consequatur similique minima delectus magni cupiditate alias at 
-                        ipsam commodi magnam, rerum libero consectetur a tempore beatae 
-                        dignissimos maxime? Illo, nihil sequi.Magni eos repudiandae totam 
-                        asperiores dolore, vitae reprehenderit quas necessitatibus fuga 
-                        velit non illum mollitia nostrum. Impedit fugit eaque dolores 
-                        officia, magnam a nam veniam? Quis, adipisci error. Rerum, 
-                        accusamus!
-                    </p>
+                    <div>
+                        <h3>Developpeur php/Symfony - Fresh Food à Dawan, Nantes</h3>
+                        <p class="p_gauche">mars 2020 – août 2020</p><!--
+                        --><p class="p_droite">
+                            Fresh Food est un site de gestion de stocks alimentaire dans une maison.
+                            J'ai travaillé sur ce projet "Fresh Food" avec une équipe de 3 personnes. Nous avons démarrer ce projet en partant de zéro et nous l'avons présenter devant un groupe de plusieurs entreprises dans le cadre de la formation Dawan.
+                            Les outils utilisés : Css, Scss, Javascript, Php, MYSQL, Symfony 5, Twig, Yarn, Maildev, Git .
+                        </p>
+                    </div>
+                    <div>
+                        <h3>Développeur php - Boerbull Motors POO, Nantes</h3>
+                        <p class="p_gauche">sept. 2019 – oct. 2019</p><!--
+                        --><p class="p_droite"> 
+                            Boerbull Motors POO est la version 2 du projet Boerbull Motors MVC.
+                            Cette foi-ci, on passe en programmation orientée objet toujours en PHP 7, en gardant une architecture Modèle, Vue, Contrôleur .
+                            Après avoir validé la formation à la 3w academy, j'ai voulu continuer ce projet pour monter en compétences, soif d'apprendre et par passion du code.
+                            J'ai voulu gardé les 2 versions différentes car je veux continuer à les mettre à jour chaqu'un de leurs côtés, l'un en php procédural et l'autre en php programmation orientée objet .
+                        </p>
+                    </div>
+
+                    <div>
+                        <h3>Développeur php - Boerbull Motors MVC à 3W Academy, Nantes</h3>
+                        <p class="p_gauche">juin 2019 – sept. 2019</p><!--
+                        --><p class="p_droite">
+                            
+                            Boerbull Motors MVC est un site de location de voiture de luxe responsive réalisé " from scratch " avec une architecture MVC en PHP 7 procédural.
+                            Ce site a été réalisé afin de valider ma formation passé à la 3w Academy ( expérience réussie ).
+                            J'ai utilisé du : HTML, CSS, JAVASCRIPT, PHP, MYSQL, Git.
+
+                            Et le lien du projet en ligne , c'est surtout sur la partie back-end qu'il faut ce concentrer : https://boerbull.000webhostapp.com/
+                        </p>
+                    </div>
+                </article>
+
+            </section>
+    
+            <section class="main_section_card">
+                <h2 id="competence">Compétences</h2>
+                <article>
+                    <div>
+                        <p class="competence_p">
+                            HTML <br>
+                            CSS <br>
+                            JAVASCRIPT <br>
+                            PHP <br>
+                            MYSQL <br>
+                            JQUERY
+                        </p><!--
+                        --><p class="competence_p">
+                            SYMFONY <br>
+                            VUE.JS <br>
+                            NODE.JS <br>
+                            ANGULAR <br>
+                            REACT <br>
+                            ELECTRON
+                        </p><!--
+                        --><p class="competence_p">
+                            LARAVEL <br>
+                            GIT <br>
+                            PHPUNIT <br>
+                            GITHUB <br>
+                            BOOTSTRAP <br>
+                            JASMINE
+                        </p>
+                    </div>
                 </article>
             </section>
     
             <section class="main_section_card">
-                <h2>Compétences</h2>
+                <h2 id="formation">Formations</h2>
                 <article>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                        Consequatur similique minima delectus magni cupiditate alias at 
-                        ipsam commodi magnam, rerum libero consectetur a tempore beatae 
-                        dignissimos maxime? Illo, nihil sequi.Magni eos repudiandae totam 
-                        asperiores dolore, vitae reprehenderit quas necessitatibus fuga 
-                        velit non illum mollitia nostrum. Impedit fugit eaque dolores 
-                        officia, magnam a nam veniam? Quis, adipisci error. Rerum, 
-                        accusamus!
-                    </p>
-                </article>
-            </section>
-    
-            <section class="main_section_card">
-                <h2>Formations</h2>
-                <article>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                        Consequatur similique minima delectus magni cupiditate alias at 
-                        ipsam commodi magnam, rerum libero consectetur a tempore beatae 
-                        dignissimos maxime? Illo, nihil sequi.Magni eos repudiandae totam 
-                        asperiores dolore, vitae reprehenderit quas necessitatibus fuga 
-                        velit non illum mollitia nostrum. Impedit fugit eaque dolores 
-                        officia, magnam a nam veniam? Quis, adipisci error. Rerum, 
-                        accusamus!
-                    </p>
+                    <div>
+                        <h3>Concepteur Développeur d'Application RNCP niveau 6 EU (bac+3/bac+4) à AFPA, Langueux</h3>
+                        <p class="p_gauche">2020 – 2021</p><!--
+                        --><p class="p_droite"> 
+                            Jasmine / PHPUnit /  PHP / Angular / React  / Vue.JS / Node.JS /  Bootstrap /  Electron / Symfony / Laravel / Git
+                        </p>
+                    </div>
+
+                    <div>
+                        <h3>Certification Développeur Fullstack à Dawan, Nantes</h3>
+                        <p class="p_gauche">2020 – 2020</p><!--
+                        --><p class="p_droite"> 
+
+                            Dispositif POEC : formation de 3 mois en tant que développeur Fullstack : <br>
+
+                            GIT / JAVASCRIPT / Angular /  JQUERY / AJAX / PHP / Symfony 4.4 et 5 / Dupral /  Magento / PHPUnit
+                        </p>
+                    </div>
+
+                    <div>
+                        <h3>Titre RNCP III FR (Bac +2), niveau 5 EU - Développeur /Intégrateur Web à 3W Academy, Nantes</h3>
+                        <p class="p_gauche">2019 – 2019</p><!--
+                        --><p class="p_droite"> 
+                            J'ai suivi une formation de développeur/intégrateur web à la 3W Academy. <br><br>
+                            
+                            Les techno apprises : <br>
+                            - HTML 5, CSS 3, Bootstrap <br>
+                            - JavaScript, JQuery <br>
+                            - PHP, POO, MVC , Wordpress <br>
+                            - MySQL <br>
+                            - Symfony 3 <br>
+                            - Responsive web design
+                        </p>
+                    </div>
                 </article>
             </section>
         </section>
